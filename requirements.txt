@@ -1,6 +1,3 @@
-types
-pickle
-string
 Flask==1.1.2
 Keras==2.4.3
 numpy==1.18.5
