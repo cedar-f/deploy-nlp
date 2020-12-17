@@ -24,10 +24,10 @@ from keras.layers import Dense, Embedding
 from keras.layers import LSTM
 from keras.layers.wrappers import Bidirectional
 from keras.layers import Dense, Lambda, dot, Activation, concatenate, Embedding, LSTM, Dropout, Conv1D, MaxPooling1D, Flatten, BatchNormalization, AveragePooling1D
-import gensim as gs
+# import gensim as gs
 # import tensorflow as tf
 
-from gensim.models import FastText
+# from gensim.models import FastText
 
 app = Flask(__name__)
 
