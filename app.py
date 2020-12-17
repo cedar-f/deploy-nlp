@@ -59,10 +59,10 @@ def create_stopwords(path, original_stopwords):
 
 original_stopwords = ["tiki", "lazada", "shopee"]
 stopwords = create_stopwords(
-    'input/stopword/vietnamese-stopwords-dash.txt', original_stopwords)
+    './input/stopword/vietnamese-stopwords-dash.txt', original_stopwords)
 word2id__ = np.load(
-    'input/dict/word_2_dict_id.npy', allow_pickle='TRUE').item()
-pathmodel = "model/PHU_BI_LSTM_CNN.06.hdf5"
+    './input/dict/word_2_dict_id.npy', allow_pickle='TRUE').item()
+pathmodel = "./model/PHU_BI_LSTM_CNN.06.hdf5"
 model = keras.models.load_model(pathmodel)
 
 
