@@ -9,7 +9,7 @@ import keras
 import keras
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 import string
 from underthesea import word_tokenize
 from gensim.utils import simple_preprocess
@@ -25,7 +25,7 @@ from keras.layers import LSTM
 from keras.layers.wrappers import Bidirectional
 from keras.layers import Dense, Lambda, dot, Activation, concatenate, Embedding, LSTM, Dropout, Conv1D, MaxPooling1D, Flatten, BatchNormalization, AveragePooling1D
 import gensim as gs
-import tensorflow as tf
+# import tensorflow as tf
 
 from gensim.models import FastText
 
