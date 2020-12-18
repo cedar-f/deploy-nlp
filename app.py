@@ -28,7 +28,7 @@ from keras.layers import Dense, Lambda, dot, Activation, concatenate, Embedding,
 import tensorflow as tf
 
 # from gensim.models import FastText
-
+sess = tf.Session(config=tf.ConfigProto(device_count={'GPU': 0}))
 app = Flask(__name__)
 
 
