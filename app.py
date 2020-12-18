@@ -13,7 +13,7 @@ import pandas as pd
 import string
 from underthesea import word_tokenize
 from gensim.utils import simple_preprocess
-from gensim.models.wrappers import FastText
+# from gensim.models.wrappers import FastText
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 from keras.preprocessing import sequence
